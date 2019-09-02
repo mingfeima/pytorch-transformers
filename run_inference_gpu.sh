@@ -41,3 +41,5 @@ python ./examples/run_glue.py --model_type bert \
     --max_seq_length 128 \
     --per_gpu_eval_batch_size $BATCH_SIZE \
     --output_dir $OUTPUT
+
+echo -e "\n### samples/sec = batch_size * it/s\n### batch_size = $BATCH_SIZE"
